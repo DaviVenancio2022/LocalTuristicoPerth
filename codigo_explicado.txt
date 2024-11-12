@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <!-- Esta linha define o tipo de documento como HTML5 -->
+    <!-- O atributo lang="pt-br" indica que o idioma da página é português (Brasil) -->
+
+    <head>
+        <!-- Esta é a seção de cabeçalho do documento HTML. Contém informações que não são exibidas diretamente na página, mas que são importantes para o funcionamento e o SEO da página -->
+
+        <meta charset="UTF-8" />
+        <!-- Define o conjunto de caracteres como UTF-8, permitindo que o navegador exiba corretamente letras e símbolos de várias línguas -->
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Ajusta o comportamento da página em dispositivos móveis, garantindo que ela seja responsiva -->
+
+        <title>Locais Turísticos em Perth</title>
+        <!-- Define o título da página, que será exibido na aba do navegador ou nos resultados de busca -->
+
+        <link rel="stylesheet" href="style.css" />
+        <!-- Conecta um arquivo CSS externo chamado "style.css", onde estão as regras de estilo para personalizar a aparência da página -->
+    </head>
+
+    <body class="text-primary">
+        <!-- A tag <body> contém todo o conteúdo visível da página -->
+        <!-- A classe "text-primary" pode ser usada para estilizar o texto de toda a página, aplicando cores ou outras propriedades definidas no CSS -->
+
+        <div id="page">
+            <!-- A tag <div> é um contêiner genérico que agrupa elementos. O atributo id="page" permite que este contêiner seja identificado e estilizado no CSS ou manipulado com JavaScript -->
+
+            <header>
+                <!-- A tag <header> representa o cabeçalho da página, geralmente contendo o título e informações principais -->
+                <h1>Locais Turísticos Perth</h1>
+                <!-- <h1> define o título principal da página. É o maior nível de título e geralmente é único na página -->
+            </header>
+
+            <main>
+                <!-- A tag <main> representa o conteúdo principal da página. Tudo o que está relacionado ao tema central da página deve estar dentro desta tag -->
+
+                <!-- Seção principal sobre Perth -->
+                <section>
+                    <!-- A tag <section> representa uma seção temática da página. Aqui, será exibida uma seção introdutória sobre Perth -->
+                    <h2>Conheça Perth</h2>
+                    <!-- <h2> é um subtítulo que vem logo abaixo de <h1> em termos de hierarquia de títulos -->
+                    <img src="assets/499351-western-australia.webp" alt="Vista aérea da cidade de Perth" />
+                    <!-- A tag <img> exibe uma imagem. O atributo src define o caminho da imagem e alt é uma descrição alternativa para leitores de tela ou se a imagem não carregar -->
+                    <p>
+                        <em>
+                            A joia do oeste da Austrália, oferece uma diversidade culinária que reflete sua
+                            rica mistura de culturas e proximidade ao oceano Índico...
+                        </em>
+                    </p>
+                    <!-- O conteúdo do parágrafo <p> está entre tags <em>, que aplicam ênfase ao texto, geralmente estilizado em itálico -->
+                </section>
+
+                <!-- Seção de lugares históricos -->
+                <section>
+                    <!-- Aqui temos outra seção, desta vez para destacar locais históricos em Perth -->
+                    <h2>Para os Amantes de História</h2>
+                    <!-- Título da seção de história -->
+
+                    <!-- Kings Park -->
+                    <article>
+                        <!-- A tag <article> representa um conteúdo independente e autossuficiente, como um artigo ou uma parte específica do conteúdo -->
+                        <h3>Kings Park</h3>
+                        <!-- <h3> é um título de nível 3, usado para subdividir o conteúdo -->
+                        <p class="text-tertiary">
+                            Kings Park é um dos maiores parques urbanos do mundo, localizado no coração de
+                            Perth...
+                        </p>
+                        <!-- Parágrafo descrevendo o Kings Park. A classe "text-tertiary" provavelmente define um estilo específico para este parágrafo -->
+                        <h4 class="text-headline">Bom para:</h4>
+                        <!-- Título <h4> para destacar categorias específicas de atividades ou recomendações -->
+                        <ul>
+                            <!-- A tag <ul> cria uma lista não ordenada (com marcadores) -->
+                            <li>Natureza</li>
+                            <li>Cultura</li>
+                            <li>Famílias</li>
+                        </ul>
+                        <!-- Itens da lista recomendados para Kings Park -->
+
+                        <img
+                            src="assets/free-photo-of-skyscrapers-in-perth-seen-from-kings-park.jpeg"
+                            alt="Vista do skyline de Perth do Kings Park"
+                        />
+                        <!-- Imagem do skyline de Perth, vista a partir do Kings Park -->
+                    </article>
+
+                    <!-- Scarborough -->
+                    <article>
+                        <h3>Scarborough</h3>
+                        <p class="text-tertiary">Um dos destinos mais icônicos de Perth...</p>
+                        <!-- Breve descrição de Scarborough -->
+                        <h4 class="text-headline">Bom para:</h4>
+                        <ul>
+                            <li>Esportes aquáticos</li>
+                            <li>Famílias</li>
+                            <li>Vida noturna</li>
+                        </ul>
+                        <!-- Itens da lista recomendados para Scarborough -->
+
+                        <img src="assets/scarborough-beach-104669-2.jpg" alt="Praia de Scarborough, Perth" />
+                        <!-- Imagem da praia de Scarborough -->
+                    </article>
+
+                    <!-- Fremantle -->
+                    <article>
+                        <h3>Fremantle</h3>
+                        <p class="text-tertiary">
+                            Cidade portuária histórica, localizada a apenas 30 minutos de Perth...
+                        </p>
+                        <!-- Descrição da cidade histórica de Fremantle -->
+                        <h4 class="text-headline">Bom para:</h4>
+                        <ul>
+                            <li>História</li>
+                            <li>Gastronomia</li>
+                            <li>Compras</li>
+                        </ul>
+                        <!-- Itens da lista recomendados para Fremantle -->
+
+                        <img src="assets/499321-fremantle-markets.webp" alt="Mercado de Fremantle" />
+                        <!-- Imagem do mercado de Fremantle -->
+                    </article>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>
+
